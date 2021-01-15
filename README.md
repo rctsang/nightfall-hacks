@@ -18,6 +18,11 @@ Tested on Chrome
 1. Add a new Snippet
 1. Copy and paste the javascript file into the snippet
 1. Run the snippet (Cmd+Enter)
+1. Reload the page
+
+### Notes
+
+Your save data is stored locally in IndexedDB using localforage. This cannot be edited except through running snippets in chrome. You can check your save data by going to "Inspect -> Applications -> IndexedDB -> nightfall" where it is saved as a stringified dictionary.
 
 ### Helpful Links
 
