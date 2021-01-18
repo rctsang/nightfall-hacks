@@ -9,6 +9,8 @@ Tested on Chrome
 ### Available Hacks
 
 - `credits.js`: set amount of credits on a save file
+- `programs.js`: add programs to your inventory
+- `reset-node-credits.js`: recollect extra credits from past databattles to enable farming (need to re-run each time, sorry)
 
 ### How to use them
 
