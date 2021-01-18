@@ -10,7 +10,7 @@ Tested on Chrome
 
 - `credits.js`: set amount of credits on a save file
 - `programs.js`: add programs to your inventory
-- `reset-node-credits.js`: recollect extra credits from past databattles to enable farming (need to re-run each time, sorry)
+- `reset-node-credits.js`: enables recollection of extra credits from past databattles (need to re-run each time, sorry)
 
 ### How to use them
 
@@ -19,12 +19,15 @@ Tested on Chrome
 1. Navigate to "Sources -> Snippets"
 1. Add a new Snippet
 1. Copy and paste the javascript file into the snippet
+1. Edit code as desired
 1. Run the snippet (Cmd+Enter)
 1. Reload the page
 
 ### Notes
 
 Your save data is stored locally in IndexedDB using localforage. This cannot be edited except through running snippets in chrome. You can check your save data by going to "Inspect -> Applications -> IndexedDB -> nightfall" where it is saved as a stringified dictionary.
+
+Don't run these hacks during a databattle as reloading the page during a databattle will cause you to lose your progress.
 
 ### Helpful Links
 
